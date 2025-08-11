@@ -30,11 +30,13 @@ Ative o ambiente virtual:
 - macOS/Linux: source ./.venv/bin/activate
 Instale as dependências:
 pip install streamlit requests python-dotenv
-Crie o arquivo .env:
+
+4. Crie o arquivo .env:
 Na raiz do projeto, crie um arquivo chamado .env e adicione sua chave da API da seguinte forma:
 CHAVE_API_OPENWEATHER="SUA_CHAVE_AQUI"
 Lembre-se de substituir "SUA_CHAVE_AQUI" pela sua chave real da API.
-Execute o aplicativo:
+
+5. Execute o aplicativo:
 streamlit run seu_arquivo.py
 O aplicativo será aberto automaticamente no seu navegador padrão. Divirta-se! 🎉
 
